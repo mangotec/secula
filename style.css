@@ -547,10 +547,15 @@ a:visited {
 	color: white;
 }
 
-a:hover,
 a:focus,
 a:active {
 	color: white;
+	opacity: 0.6;
+}
+
+a:hover {
+	color: white;
+	opacity: 1;
 }
 
 a:focus {
@@ -1189,4 +1194,8 @@ font-size: 14pt;
 .showdate {
 font-size: 10pt;
 color: grey;
+}
+
+.page-id-8 .entry-content {
+	opacity: 0.6;
 }
