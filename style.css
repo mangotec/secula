@@ -1058,6 +1058,7 @@ textarea {
 .home-logo {
 	/*max-width: 50vw;*/
 	max-height: 70vh;
+	opacity: 0.6;
 }
 
 .page-id-8 .entry-title {
@@ -1187,8 +1188,4 @@ font-size: 14pt;
 .showdate {
 font-size: 10pt;
 color: grey;
-}
-
-.page-id-8 .entry-content {
-	opacity: 0.6;
 }
