@@ -539,14 +539,8 @@ table {
 
 /* Links
 --------------------------------------------- */
-a {
-	color: white;
-}
-
-a:visited {
-	color: white;
-}
-
+a,
+a:visited,
 a:focus,
 a:active {
 	color: white;
