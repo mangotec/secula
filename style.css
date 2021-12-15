@@ -1148,3 +1148,45 @@ textarea {
 .platforms br, .platforms p {
 	display: none;
 }
+
+.shows {
+	display: flex;
+	flex-wrap: wrap;
+	
+}
+
+.show {
+width: 300px;
+border: 1px solid white;
+padding: 20px;
+margin: 10px;
+
+}
+
+.showtitle {
+font-family: 'Work Sans', sans-serif;
+	letter-spacing: 10pt;
+	text-transform: uppercase;
+font-size: 17pt;
+text-decoration: none; 
+color: darkred;
+}
+
+.show a:link {
+text-decoration: none;
+}
+
+.show p {
+margin: 0;
+
+}
+
+.showlocation {
+font-size: 14pt;
+
+}
+
+.showdate {
+font-size: 10pt;
+color: grey;
+}
