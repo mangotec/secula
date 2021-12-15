@@ -545,11 +545,13 @@ a:focus,
 a:active {
 	color: white;
 	opacity: 0.6;
+	text-decoration: none;
 }
 
 a:hover {
 	color: white;
 	opacity: 1;
+	text-decoration: none;
 }
 
 a:focus {
@@ -1167,12 +1169,7 @@ font-family: 'Work Sans', sans-serif;
 	letter-spacing: 10pt;
 	text-transform: uppercase;
 font-size: 17pt;
-text-decoration: none; 
 color: darkred;
-}
-
-.show a:link {
-text-decoration: none;
 }
 
 .show p {
