@@ -749,6 +749,7 @@ textarea {
 		border: none;
 		padding: 40px;
 		display: block;
+		opacity: 0.6;
 	}
 
 	.main-navigation.toggled ul {
@@ -762,6 +763,7 @@ textarea {
 		right:30px;
 		padding: 10px;
 		border-radius: 10px;
+		z-index: 999999;
 	}
 }
 
@@ -829,7 +831,7 @@ textarea {
 }
 
 .entry-meta, .entry-footer span {
-	font-family: 'Work Sans', sans-serif;
+	/* font-family: 'Work Sans', sans-serif; */
 	letter-spacing: 10pt;
 	text-transform: uppercase;
 	padding-right: 20px;
